@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{2C8DEC82-050C-4BB1-ACA8-769E41074E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrambles.Database.Wrapper", "Scrambles.Database.Wrapper\Scrambles.Database.Wrapper.csproj", "{76BE73BA-2403-4A74-BB70-6D9E8F540545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrambles.Database.Wrapper.Postgres", "Scrambles.Database.Wrapper.Postgres\Scrambles.Database.Wrapper.Postgres.csproj", "{1F49C7CD-A42F-47EC-9752-918677276843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrambles.Database.Wrapper.Postgres.Tests", "Scrambles.Database.Wrapper.Postgres.Tests\Scrambles.Database.Wrapper.Postgres.Tests.csproj", "{14214B2B-D4C0-4A15-BE46-BC698C680585}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C8DEC82-050C-4BB1-ACA8-769E41074E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8DEC82-050C-4BB1-ACA8-769E41074E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BE73BA-2403-4A74-BB70-6D9E8F540545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BE73BA-2403-4A74-BB70-6D9E8F540545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BE73BA-2403-4A74-BB70-6D9E8F540545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BE73BA-2403-4A74-BB70-6D9E8F540545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F49C7CD-A42F-47EC-9752-918677276843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F49C7CD-A42F-47EC-9752-918677276843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F49C7CD-A42F-47EC-9752-918677276843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F49C7CD-A42F-47EC-9752-918677276843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14214B2B-D4C0-4A15-BE46-BC698C680585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14214B2B-D4C0-4A15-BE46-BC698C680585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14214B2B-D4C0-4A15-BE46-BC698C680585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14214B2B-D4C0-4A15-BE46-BC698C680585}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
